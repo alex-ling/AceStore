@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Acesoft.Store.Views.RegistPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Label Text="手机号" />
+            <Entry x:Name="mobile" Placeholder="请输入手机号" />
+            <Label Text="密码" />
+            <Entry x:Name="password" IsPassword="true" />
+            <Label Text="短信验证码" />
+            <Entry x:Name="vaildcode" />
+            <Button Text="注册" Clicked="OnRegist" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
